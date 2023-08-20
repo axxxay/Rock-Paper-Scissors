@@ -1,0 +1,126 @@
+.container {
+  background-color: #223a5f;
+  width: 100%;
+  min-height: 100vh;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.score-logo-con {
+  border: 3px solid #ffffff;
+  border-radius: 10px;
+  padding: 16px 25px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-heading {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  padding: 0px;
+  margin: 0px;
+}
+
+.score-con {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 10px 50px;
+  text-align: center;
+}
+
+.score-text {
+  color: #223a5f;
+  font-weight: 500;
+  font-size: 21px;
+  font-family: 'Bree Serif';
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+.choice-list {
+  width: 40%;
+  padding-left: 0px;
+  list-style-type: none;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.rule-button {
+  background-color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-family: 'Bree Serif';
+  color: #223a5f;
+  border: 0px;
+  align-self: flex-end;
+  font-size: 12px;
+  margin-top: 80px;
+}
+
+.rules-modal {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 35px 65px;
+  border-radius: 2px;
+  height: 70vh;
+}
+
+.rules-image {
+  width: 100%;
+}
+
+.close-button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: transparent;
+  padding: 0px;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+}
+
+.close-icon {
+  color: #223a5f;
+}
+.popup-content {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 5px;
+  }
+  .score-logo-con {
+    width: 100%;
+  }
+  .score-con {
+    padding: 10px 25px;
+  }
+  .choice-list {
+    width: 100%;
+    margin-top: 80px;
+  }
+  .rule-button {
+    margin-top: 30px;
+  }
+  .rules-modal {
+    height: 40vh;
+    width: 95%;
+    padding: 35px 25px;
+  }
+  .close-button {
+    right: 20px;
+  }
+}
